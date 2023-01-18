@@ -11,10 +11,9 @@
 </ul>
 
 <div *ngIf="selectedUser">
-    <h2>{{selectedUser.name}} Details</h2>
-    <div>id: {{selectedUser.id}}</div>
+    <h2>{{selectedUser.name}} Description</h2>
     <div>
-      <label for="user-name">User name: </label>
-      <input id="user-name" [(ngModel)]="selectedUser.name" placeholder="name">
+      <label for="user-descrition">Description: </label>
+      <span id="user-description"> {{selectedUser.description}}</span>
     </div>
   </div>
