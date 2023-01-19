@@ -8,12 +8,12 @@ This project was first generated with [Angular CLI](https://github.com/angular/a
 Based on the code and requirements, built this simpler app.
 
 ## Requirements
-You may need 3 things to run it locally:
+You may need 4 things to run it locally:
 
 1. Node.js - Angular requires an [active LTS or maintenance LTS version](https://nodejs.org/about/releases) of Node.js.. You may run 'node -v' in terminal window to check the version.
 2. npm package manager, you may use 'npm -v' to check the npm manager version. You may refer to [This Page] (https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) to get npm.
 3. Install the Angular CLI by the command: 'npm install -g @angular/cli'
-4. clone this repo and run 'ng serve' to see it running locally
+4. clone this repo and run `ng serve` to see it running locally
 
 ## Development server
 
