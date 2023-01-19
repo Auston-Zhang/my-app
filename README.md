@@ -10,9 +10,9 @@ Based on the code and requirements, built this simpler app.
 ## Requirements
 You may need 4 things to run it locally:
 
-1. Node.js - Angular requires an [active LTS or maintenance LTS version](https://nodejs.org/about/releases) of Node.js.. You may run 'node -v' in terminal window to check the version.
-2. npm package manager, you may use 'npm -v' to check the npm manager version. You may refer to [This Page] (https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) to get npm.
-3. Install the Angular CLI by the command: 'npm install -g @angular/cli'
+1. Node.js - Angular requires an [active LTS or maintenance LTS version](https://nodejs.org/about/releases) of Node.js.. You may run `node -v` in terminal window to check the version.
+2. npm package manager, you may use 'npm -v' to check the npm manager version. You may refer to [This Page](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) to get npm.
+3. Install the Angular CLI by the command: `npm install -g @angular/cli`
 4. clone this repo and run `ng serve` to see it running locally
 
 ## Development server
@@ -25,7 +25,7 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 or
 
-Run 'ng test --no-watch --code-coverage' to see the test coverage.
+Run `ng test --no-watch --code-coverage` to see the test coverage.
 
 Attaching the most recent report as an example here:
 
@@ -43,7 +43,7 @@ Functions    : 100% ( 3/3 )
 Lines        : 100% ( 6/6 )
 
 ## Responsive Check
-Please drag the browser window to see the effect. If you make the window width less than '270px', you should see the sizes of text and button become smaller.
+Please drag the browser window to see the effect. If you make the window width less than `270px`, you should see the sizes of text and button become smaller.
 
 ## Build
 
