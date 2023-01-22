@@ -1,0 +1,9 @@
+<!-- Ref: Angular Tutorial https://stackblitz.com/run?file=src%2Fapp%2Fapp.component.html,src%2Fapp%2Fname-editor%2Fname-editor.component.html -->
+<h3>Reactive Form</h3>
+
+<label for="name">Name: </label>
+<input id="name" type="text" [formControl]="name">
+
+<p>Value: {{ name.value }}</p>
+
+<button type="button" (click)="showName()">Show Name</button>

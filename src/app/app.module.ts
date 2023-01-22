@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms';
+import { FormsModule} from '@angular/forms';
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -13,6 +13,8 @@ import { MatProgressBarModule } from "@angular/material/progress-bar";
 import { MatExpansionModule } from '@angular/material/expansion';
 import { ExperimentsComponent } from './experiments/experiments.component';
 import {MatButtonModule} from '@angular/material/button';
+import { ReactiveFormsModule } from '@angular/forms';
+import { ReactiveFormComponent } from './reactive-form/reactive-form.component';
 
 
 @NgModule({
@@ -20,6 +22,9 @@ import {MatButtonModule} from '@angular/material/button';
     AppComponent,
     UsersComponent,
     ExperimentsComponent,
+    ReactiveFormComponent
+    
+    
   ],
   imports: [
     BrowserModule,
@@ -29,7 +34,8 @@ import {MatButtonModule} from '@angular/material/button';
     MatSlideToggleModule,
     MatProgressBarModule,
     MatExpansionModule,
-    MatButtonModule
+    MatButtonModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
