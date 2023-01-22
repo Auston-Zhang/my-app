@@ -13,7 +13,13 @@
   h4,
   h5,
   h6 {
+
+    text-align: center;
     margin: 0.2em 0;
+  }
+
+  nav{
+    text-align: center;
   }
 
   p {
@@ -35,6 +41,9 @@
 
   /* Responsive Styles */
   @media screen and (max-width: 270px) {
+    h1{
+      font-size: 0.9rem;
+    }
     .content h3{
         font-size: 0.7rem;
     }
