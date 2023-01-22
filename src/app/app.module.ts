@@ -13,10 +13,10 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MatProgressBarModule } from "@angular/material/progress-bar";
 import { MatExpansionModule } from '@angular/material/expansion';
 import { ExperimentsComponent } from './experiments/experiments.component';
-import {MatButtonModule} from '@angular/material/button';
+import { MatButtonModule } from '@angular/material/button';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ReactiveFormComponent } from './reactive-form/reactive-form.component';
-import {MatFormFieldModule} from '@angular/material/form-field';
+import { MatFormFieldModule } from '@angular/material/form-field';
 
 
 
