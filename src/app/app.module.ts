@@ -12,6 +12,8 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MatProgressBarModule } from "@angular/material/progress-bar";
 import { MatExpansionModule } from '@angular/material/expansion';
 import { ExperimentsComponent } from './experiments/experiments.component';
+import {MatButtonModule} from '@angular/material/button';
+
 
 @NgModule({
   declarations: [
@@ -26,7 +28,8 @@ import { ExperimentsComponent } from './experiments/experiments.component';
     BrowserAnimationsModule,
     MatSlideToggleModule,
     MatProgressBarModule,
-    MatExpansionModule
+    MatExpansionModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
