@@ -49,3 +49,6 @@ Please drag the browser window to see the effect. If you make the window width l
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
+
+## Other things
+Tried small things, did not add unit test code for them.
