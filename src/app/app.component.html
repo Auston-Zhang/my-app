@@ -1,7 +1,14 @@
+<nav>
+  <h3>Root Components</h3>
+  <button type="button" (click)="toggleSection('list')">User List</button>
+  <button color="warn" type="button" (click)="toggleSection('experiments')">Experiment</button>
+</nav>
+
 
 <div class="content" role="main">
   <h3>{{title}}</h3>
-  <app-users></app-users>  
+  <app-users *ngIf="showListSection"></app-users>
+  <app-experiments *ngIf="showExperimentSection"></app-experiments>
 </div>
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * The content above * * * * * * * * * * * -->
