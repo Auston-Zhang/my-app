@@ -1,12 +1,10 @@
 <!-- Ref: Angular Tutorial https://stackblitz.com/run?file=src%2Fapp%2Fapp.component.html,src%2Fapp%2Fname-editor%2Fname-editor.component.html -->
 
-<h3>Reactive Form</h3>
-<mat-form-field appearance="fill">
-    <mat-label for="name">Name: </mat-label>
-    <input matInput placeholder="Placeholder" id="name" type="text" [formControl]="name">
-    <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
-        <mat-hint>Hint</mat-hint>
-</mat-form-field>
+<h6>Simple Reactive Form Try</h6>
+<div>
+    <label for="name">Name: </label>
+    <input placeholder="Placeholder" id="name" type="text" [formControl]="name">
+</div>
 
 
 <p>Value: {{ name.value }}</p>

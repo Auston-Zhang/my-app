@@ -1,3 +1,4 @@
+// import the User defined by interface
 import { User } from './user';
 
 export const USERS: User[] = [
